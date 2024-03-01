@@ -1,0 +1,33 @@
+.main_container {
+  height: 100vh;
+  padding: 1.5rem 7rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.header {
+  color: #5076ff;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.QuizAnalysis_question_analysis_container {
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+.QuizAnalysis_box {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.QuizAnalysis_total_attempt_box,
+.QuizAnalysis_correct_attempt_box,
+.QuizAnalysis_incorrect_attempt_box {
+  background: #fff;
+  border-radius: 0.3125rem;
+  padding: 2rem 1rem;
+}

@@ -1,0 +1,106 @@
+.Questions_mainContainer {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Question_questionContent {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 60vh;
+  width: 80%;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Questions_header {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.Questions_timer {
+  /* Add your timer styles here */
+}
+
+.Questions_pollQuestions {
+  font-size: 1.5rem;
+  font-weight: 550;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.Questions_options {
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.Questions_option {
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  width: 70%;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.8rem;
+  overflow: hidden;
+}
+
+.Questions_option img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Questions_option:nth-child(odd) {
+  margin-left: 5rem;
+}
+.Questions_option.selected {
+  background: #60b84b;
+  color: #fff;
+}
+
+.submit_btn {
+  background: #60b84b;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 0.55rem 2rem;
+  transition-duration: 0.4s;
+  width: 100%;
+}
+
+/* Add any additional styles as needed */
+
+@media screen and (min-width: 768px) {
+  .Questions_options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Questions_option:nth-child(odd) {
+    margin-right: 0.5rem;
+  }
+
+  .Questions_option:nth-child(even) {
+    margin-left: 0.5rem;
+  }
+
+  .submit_btn {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

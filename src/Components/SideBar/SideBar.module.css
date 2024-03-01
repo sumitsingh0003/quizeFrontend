@@ -1,0 +1,55 @@
+.sidebar {
+    width: 18%;
+    height: 100vh;
+    background: #FFFFFF;
+    /* padding: 20px; */
+    box-sizing: border-box;
+  }
+  
+  .dashboardLogo {
+    font-size: 24px;
+    font-weight: bold;
+   padding: 20px 30px;
+  }
+  
+  .dashboardBtnSection {
+    /* display: flex;
+    flex-direction: column;
+    gap: 1rem; */
+    margin: auto;
+    /* margin-top: 12rem; */
+  }
+  
+  
+  .sidebarBtn {
+    cursor: pointer;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 650;
+    font-size: 1rem;
+    padding: 15px 35px;
+    width: 100%;
+    text-align: left;
+  }
+  .activeBtn {
+    background: #5a97ff;
+    color: #fff;
+  }
+  
+
+  /* .sidebarBtn:hover {
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .sidebarBtn.activeBtn {
+    
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.4);
+  } */
+
+  .logout_btn{
+    display: flex;
+    /* margin-top: 12rem; */
+    /* margin-left: 4rem; */
+    
+  }

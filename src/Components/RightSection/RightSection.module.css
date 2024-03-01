@@ -1,0 +1,14 @@
+.rightSectionMainContainer {
+    width: 88%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    background: #EDEDED;
+
+  }
+  
+  /* Add any additional styling for the RightSection content */
+  .hideContent {
+    display: none;
+  }

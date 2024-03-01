@@ -1,0 +1,30 @@
+.PollCompletion_mainContainer {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.PollCompletion_thankYouContainer {
+  align-items: center;
+  background: #fff;
+  border-radius: 0.9375rem;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 3rem;
+  font-weight: 600;
+  height: 70vh;
+  justify-content: center;
+  letter-spacing: 0.2rem;
+  line-height: 5rem;
+  padding: 1rem;
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+
+  /* Media Query for smaller screens */
+  @media screen and (max-width: 768px) {
+    height: auto;
+    padding: 1rem;
+  }
+}
